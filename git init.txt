@@ -12,3 +12,4 @@ sirve para clonar un repositorio remoto a local.
 cd
 entramos en la carpeta deseada.
 
+hola
