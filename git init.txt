@@ -1,0 +1,14 @@
+git init
+
+
+inicializacion del repositorio local
+
+
+bash
+git clone[url]
+
+sirve para clonar un repositorio remoto a local.
+
+cd
+entramos en la carpeta deseada.
+
