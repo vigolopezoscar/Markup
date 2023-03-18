@@ -1,0 +1,32 @@
+.principal {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    transition: all 0.s ease;
+    border: 1px solid #428dd379;
+
+}
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulos{
+    margin-top: 60px;;
+    margin-bottom: 55px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 25px;
+    padding: 15px;
+}
+.textos{
+    margin-top: 60px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 30px;
+    padding: 25px;
+}

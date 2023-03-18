@@ -2,139 +2,88 @@
 <html lang="es">
 
 <head>
-	<meta charset="UTF-8"/>
+	<meta charset="UTF-8" />
 	<title>League of legends</title> <!-- Título de nuestra pestaña -->
-
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style1.css">
 </head>
 
-<br/>
+<body>
+	<audio autoplay controls="false" hidden="true">
+		<source src="Musica/principal.mp3" type="audio/mp3">
+	</audio>
+	<nav>
+		<img src="Imagenes/logo.png" id="logo">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="index1.html">Mapas</a></li>
+			<li><a href="index2.html">Cómo Jugar</a></li>
+			<li><a href="https://signup.leagueoflegends.com/es-es/signup/redownload" target="_blank">Descargar Juego</a>
+			</li>
+		</ul>
+	</nav>
 
-<body style="color:white;" background="Imagenes/fondo1.jpg">
-	
-	<h1>
-		<center>SportGames League of Legends</center>
-	</h1>
-	
-	<hr/>
-	<br/>
+	<div class="container">
+		<video autoplay muted loop id="myVideo">
+			<source src="videos/video.mp4" type="video/mp4">
+		</video>
+		<img class="principal" src="Imagenes/fondo1.jpg" title="Nocturne">
+		<img class="principal" src="Imagenes/fondo2.jpg" title="Miss Fortune">
+		<img class="principal" src="Imagenes/fondo3.jpg" title="Lux">
+		<img class="principal" src="Imagenes/fondo4.jpg" title="Maestro Yi">
+		<img class="principal" src="Imagenes/fondo5.jpg" title="Olaf">
+		<img class="principal" src="Imagenes/fondo6.jpg" title="Shaco">
+		<img class="principal" src="Imagenes/fondo7.jpg" title="Olaf">
+		<img class="principal" src="Imagenes/fondo8.jpg" title="Shaco">
+	</div>
 
-	<center>
-		<img src="Imagenes/lol1.jpg" width="width=1200" height="742" title="League of legends" alt="League of legends"/>
-
-		<h3>
-			<strong> League of Legends</strong> (tambien conocido como <acronym title="League of Legends">LOL</acronym>), es un videojuego multijugador de arena de batalla en línea desarrollado 
+	<div id="contenido">
+		<h3 id="texto">
+			<strong> League of Legends</strong> (tambien conocido como <acronym
+				title="League of Legends">LOL</acronym>), es un videojuego multijugador de arena de batalla en línea
+			desarrollado
 			y publicado por Riot Games.
 		</h3>
-		<br/>
+		<h3 id="video">Video Presentación</h3>
 
-		<h3>Video Presentación</h3>
-
-		<p style="margin-bottom: 5px;">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/mDYqT0_9VR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<p id="videoPresentacion" style="margin-bottom: 5px;">
+			<iframe src="https://www.youtube.com/embed/mDYqT0_9VR4" title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
 		</p>
-	
+		<article id="texto1">
 		<h3>
-		Inspirándose en Defense of the Ancients, un mapa personalizado para Warcraft III, los fundadores de Riot buscaron desarrollar un juego independiente del mismo género.
+			Inspirándose en Defense of the Ancients, un mapa personalizado para Warcraft III, los fundadores de Riot
+			buscaron desarrollar un juego independiente del mismo género.
 		</h3>
-		<h3>Desde su lanzamiento en octubre de 2009, LoL ha sido un juego gratuito y se monetiza a través de la compra de elementos para la personalización de personajes.</h3>
+		<h3>Desde su lanzamiento en octubre de 2009, LoL ha sido un juego gratuito y se monetiza a través de la compra
+			de
+			elementos para la personalización de personajes.</h3>
 		<h3>
 			El juego está disponible para Microsoft Windows y macOS.
-			En el juego, dos equipos de cinco jugadores luchan en un combate jugador contra jugador, cada equipo ocupando y defendiendo su mitad del mapa. 
-			Cada uno de los diez jugadores controla un personaje, conocido como "campeón", con habilidades únicas y diferentes estilos de juego. Durante una partida,
-			los campeones se vuelven más poderosos acumulando puntos de experiencia y ganando oro que se emplea para la compra de artículos para derrotar al equipo contrario.
+			En el juego, dos equipos de cinco jugadores luchan en un combate jugador contra jugador, cada equipo
+			ocupando y
+			defendiendo su mitad del mapa.
+			Cada uno de los diez jugadores controla un personaje, conocido como "campeón", con habilidades únicas y
+			diferentes estilos de juego. Durante una partida,
+			los campeones se vuelven más poderosos acumulando puntos de experiencia y ganando oro que se emplea para la
+			compra de artículos para derrotar al equipo contrario.
 		</h3>
-	<br/>
-		<audio controls>
-		<source src="Musica/cancion1.mp3" type="audio/mp3">
-		</audio>
-	</center>
-
-	<br/>
-	<br/>
-
-	<table border align="center">
-	<tr>
-		<th colspan="6"><br/>Principales campeones</th>
-	</tr>
-	<!--Fila1-->
-	<tr>
-		<th><p style="padding: 10px;">Asesinos</p></th>
-		<th><p style="padding: 10px;">Luchadores</p></th>
-		<th><p style="padding: 10px;">Magos</th>
-		<th><p style="padding: 10px;">Tiradores</th>
-		<th><p style="padding: 10px;">Apoyos</th>
-		<th><p style="padding: 10px;">Tanques</th>
-	</tr>
-
-	<!--Fila2-->
-	<tr>
-		<td><p style="padding: 10px;">Ahri</td>
-		<td><p style="padding: 10px;">Akali</td>
-		<td><p style="padding: 10px;">Akshan</td>
-		<td><p style="padding: 10px;">Ekko</td>
-		<td><p style="padding: 10px;">Katarina</td>
-		<td><p style="padding: 10px;">Lee Sin</td>
-	</tr>
-
-	<!--Fila3-->
-	<tr>
-		<td><p style="padding: 10px;">Aatrox</td>
-		<td><p style="padding: 10px;">Bel´Veth</td>
-		<td><p style="padding: 10px;">Blitzcrank</td>
-		<td><p style="padding: 10px;">Camille</td>
-		<td><p style="padding: 10px;">Darius</td>
-		<td><p style="padding: 10px;">Diana</td>
-	</tr>
-
-	<!--Fila4-->
-	<tr>
-		<td><p style="padding: 10px;">Caitlyn</td>
-		<td><p style="padding: 10px;">Ashe</td>
-		<td><p style="padding: 10px;">Azir</td>
-		<td><p style="padding: 10px;">Draven</td>
-		<td><p style="padding: 10px;">Graves</td>
-		<td><p style="padding: 10px;">Jinx</td>
-	</tr>
-
-	<!--Fila5-->
-	<tr>
-		<td><p style="padding: 10px;">Janna</td>
-		<td><p style="padding: 10px;">Nami</td>
-		<td><p style="padding: 10px;">Lulu</td>
-		<td><p style="padding: 10px;">Seraphine</td>
-		<td><p style="padding: 10px;">Sona</td>
-		<td><p style="padding: 10px;">Yuumi</td>
-	</tr>
-
-	<!--Fila6-->
-	<tr>
-		<td><p style="padding: 10px;">Amumu</td>
-		<td><p style="padding: 10px;">Darius</td>
-		<td><p style="padding: 10px;">Garen</td>
-		<td><p style="padding: 10px;">Jarvan</td>
-		<td><p style="padding: 10px;">Nunu</td>
-		<td><p style="padding: 10px;">Renekton</td>
-	</tr>
-</table>
-<br/>
-<br/>
-<br/>
-<br/>
-	   <h2 id="lista_de_mapas">Mapas en League of legends</h2>
-    <ol id="mapas_lol">
-       <li>Howling Abyss.</li>
-       <li>The Crystal Scar.</li>
-       <li>The Twisted Treeline</li>
-    </ol>
-    <br/>
-
-    <center>
-	<h3> Hay varios tipos de <a target="_blank"href="LOL2.html">MAPAS</a> en League of Legends, este que tenemos a continuación es en el que se disputan las partidas mas interesantes y competitivas.
-	</h3>
-	<br/>
-	
-	<img src="Imagenes/lol2.jpg" width="width=1200" height="742" title="League of legends" alt="League of legends"/>
-
-	</center>
+		</article>
+	</div>
+	<footer id="enlaces">
+		<ul>
+			<li><a href="https://www.facebook.com/LeagueofLegendsES/?brand_redir=82061850555&locale=es_ES"
+					target="_blank"><img class="principal" src="Imagenes/facebook.png"></a></li>
+			<li><a href="https://www.instagram.com/lol_es/?hl=es" target="_blank"><img class="principal"
+						src="Imagenes/instagram.png"></a>
+			</li>
+			<li><a href="https://twitter.com/LeagueOfLegends" target="_blank"><img class="principal"
+						src="Imagenes/twitter.png"></a></li>
+			<li><a href="https://signup.leagueoflegends.com/es-es/signup/redownload" target="_blank"><img
+						class="principal" src="Imagenes/logo.jpg"></a></li>
+		</ul>
+	</footer>
 </body>
+
 </html>
